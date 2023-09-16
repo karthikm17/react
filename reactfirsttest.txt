@@ -1,0 +1,105 @@
+   1. What is react? 
+
+         React is a JavaScript library created by Facebook.React is a User Interface (UI) library.
+         React is a tool for building UI components.React is used to build single-page applications.
+  
+  2. What is component?
+
+    Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, 
+    but work in isolation and return HTML. Components come in two types, 
+
+                              Class components   
+                              Function components
+	
+ 3. Write function syntax?	
+     
+      import React from 'react';
+
+      const student=()={
+
+
+      return (
+
+      <div><h1>Welcome to react </h1></div>
+
+       );
+       }
+     export default student;
+
+
+
+   4. Write class syntax?
+
+     import React,{Component} from 'react';
+
+      class student extends  Component{
+
+         render(){
+         
+
+       return (
+
+      <div><h1>Welcome to react </h1></div>
+
+       );
+       }
+       }
+     export default student;
+
+		
+  5. Write example of internal style. 
+
+         
+      import React from 'react';
+
+      const student=()={
+          
+        const style={
+                    color:"red";
+
+              }
+
+      return (
+
+      <div><h1 style={style}>Welcome to react </h1></div>
+
+       );
+       }
+     export default student;
+
+
+   
+  6. What is JSX?   
+    
+    JSX stands for JavaScript XML. It is simply a syntax extension of JavaScript. It allows us to directly write HTML in React.
+    JSX can easily convert HTML tags to react elements. It is faster than regular JavaScript.
+
+
+  7. What are the advantages of react?
+
+        *It is simple.
+        *Easy to Learn and USe
+        *Creating Dynamic Web Applications Becomes Easier
+        *Reusable Components
+
+  
+  8. Difference between real dom and virtual dom? 
+
+        Real DOM:
+            DOM manipulation is very expensive.   
+            It updates Slow.
+            There is too much memory wastage. 
+
+
+        Virtual DOM;
+             DOM manipulation is very easy. 
+             It updates fast.
+             No memory wastage.
+
+ 
+  9. Write any three packages?   
+
+             npm i react-icons
+             npm i react-slick
+             npm i slick-carousel
+             
