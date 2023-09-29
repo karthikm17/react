@@ -25,7 +25,7 @@
 
 6. Which of the life cycle method in a React Component is called after the component is rendered for the first time?
 
-   componentDidUpdate()
+   componentDidMount()
 
 
 7. Which attribute is used to populate value?
