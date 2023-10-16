@@ -1,0 +1,107 @@
+
+1.   In a multi-themed React application, how can you dynamically switch between themes
+     using React Context while ensuring that theme changes apply consistently to all components?
+
+       Use the useEffect hook in each component to listen for theme changes and manually update styles.
+     
+
+2.  When using React Context to manage application theming, how can you ensure that theme changes 
+      propagate efficiently to all components, including deeply nested ones?
+
+     Use the useContext hook in every component that needs access to the theme context.
+
+
+3.  In a React Context, what is the purpose of the `Provider` component?
+
+
+    It consumes data from the context and makes it available to its child components.
+
+
+4.  What is React Context used for?
+   
+     Sharing data between components without manually passing props
+
+
+5.  In a large-scale React application with multiple layers of component nesting, how can you optimize performance when 
+    using React Context to pass down global data to deeply  nested components?
+     
+    Create a single global context and provide all data through it to reduce context providers in the component tree.
+
+
+6.  How can you update context data in React?
+
+     By dispatching actions to a reducer function.
+
+7.  In React Context, what is the purpose of the `defaultValue` parameter in `createContext`?
+
+           
+     It is not a valid parameter in `createContext`
+  
+
+8.   When managing authentication using React Context, how can you handle token  expiration and automatically log 
+     out users when their session expires?
+
+        Periodically check token expiration in every component that needs authentication and log out users
+        accordingly.
+
+
+
+9.  When sharing global data across components using React Context, how can you handle asynchronous data fetching 
+    and ensure components receive updated data once the fetch operation completes?
+
+       Use the useEffect hook in each consuming component to trigger data fetching independently.
+
+
+
+10.   what happens if there is no matching `Provider` in the component tree  
+     when trying to access context data?  
+  
+
+      An infinite loop occurs
+
+
+11.  When using React Context, what is the role of the `Consumer` component?  
+
+
+    It consumes data from the context and renders it as a function.
+
+
+12.   What is the purpose of the `useContext` hook in React?
+
+
+     To consume context data within a functional component
+
+
+13.   In a complex React application, you have multiple layers of nested components that consume context data. 
+      How can you optimize performance when updating context data  at the top level of the component tree 
+      to avoid unnecessary re-renders?
+ 
+      Utilize the useContext hook with specific context dependencies to avoid re-renders of unrelated components.
+ 
+
+14.   When using React Context, can you have multiple context providers in the same
+      component tree?
+
+          You can have multiple context providers, but they must all share the same context data.
+	
+
+15.   In a React application, how do you create a new context using the Context API?
+
+
+         Use the createContext function from the `react` package.
+
+  
+
+16.   In React Context, how can you access the context data in a class component?
+
+            
+         By using the this.context property.           
+
+
+17.   In a React application using multiple context providers, what can you do to prevent  
+
+      unnecessary re-renders of components when a change occurs in a different context that is not relevant to them?
+
+
+
+  

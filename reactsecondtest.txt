@@ -1,0 +1,184 @@
+
+1. In a try...catch block, where should you place the code that might throw an error?
+
+
+    Inside the catch block.
+
+
+2.  How can you update the state of a functional component in React?
+
+     By calling the useState hook with new values.
+
+
+3.  What is a template literal in ES6 used for?
+
+    Creating multiline string literals with interpolation.
+
+
+4.   Which ES6 feature allows you to destructure an object in a single line of code?
+
+     Object destructuring
+
+
+5.  Which JavaScript method allows you to explicitly set the value of this within a function?
+ 
+
+    apply()
+
+
+6.  What is the key difference between state and props in React?
+
+
+    Props are immutable, while state can be changed.
+
+
+7.  What does the spread operator (...) do in ES6?
+
+    Copies the properties of an object to another object
+
+
+8.  In React, what is the primary purpose of the constructor method in a class component?
+ 
+
+      To define the component's initial state.
+
+
+9.  In ES6, which keyword is used to declare a constant variable?
+
+
+     const
+
+
+10.  What does the await keyword do in an async function in JavaScript?
+
+
+    It waits for a promise to resolve and returns its resolved value.
+
+
+11.  Which of the following methods is used to handle a resolved Promise in JavaScript?
+
+
+     then()
+
+
+12.  What is the purpose of the arrow function syntax (=>) in ES6?
+
+
+     It simplifies the syntax for writing short, single-expression functions.
+
+
+13.  What is the key difference between class components and functional components in
+     React?
+
+
+       Class components use the constructor method, while functional components use hooks.
+
+
+
+14.   In JavaScript, what is the primary use case for using call or apply methods?
+    
+      
+       To invoke functions with a specific context and arguments.
+
+
+15.   What is the main difference between the call and apply methods in JavaScript?
+
+
+      call allows you to pass multiple arguments as a comma-separated list, while apply accepts arguments
+      as an array.
+
+
+16.    Which of the following is NOT a valid way to handle errors in an asynchronous operation?
+
+
+       Using try...catch blocks within the asynchronous code.
+
+
+
+17.   What is the purpose of a Promise in JavaScript?
+
+
+      To handle errors and exceptions in a synchronous manner.
+
+
+18.   In React, what is the difference between props and state?
+
+
+     props are used for communication between parent and child components, while state is used for internal component data.
+
+
+
+19.    How do you pass a function as a prop to a child component in React?
+
+
+
+       Wrap it in a callback function within the parent component.
+
+
+20.   In React, what is the primary purpose of the render method in a class component?
+
+  
+        To return JSX that represents the component's UI.
+
+
+21.   In a functional component, what hook is used to introduce local state?
+
+
+
+       useState
+
+
+22.    In a Promise chain, what is the purpose of the catch method?
+
+
+         To handle and recover from errors that occur in the then callbacks.
+
+
+
+23.   In React JSX, how do you render a JavaScript expression inside a JSX element?
+
+
+        Use the {{ }} syntax.
+
+
+24.   Which of the following methods should be used to bind an event handler function to a
+      class component in React?
+
+         bind method in the constructor
+
+
+
+25.  Which of the following code snippets demonstrates the correct usage of the apply   method to invoke a 
+     function with an array of arguments?
+           // Snippet A
+                      function greet(name, age) {
+ 			 console.log(`Hello, ${name}. You are ${age} years old.`);
+				}
+		     greet.apply(null, ['Alice', 30]);
+
+	  // Snippet B
+			function sayHi() {
+  				console.log(`Hi, ${arguments[0]}.`);
+				}
+			sayHi.apply(null, 'Bob');
+
+
+       Snippet A
+     
+
+
+26.   How can you conditionally render a component in React JSX based on a variable
+      showComponent?
+
+      showComponent && }
+
+
+
+
+
+ 
+     
+
+
+    
+
